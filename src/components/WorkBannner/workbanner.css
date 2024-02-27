@@ -1,0 +1,27 @@
+:root{
+    --bgcolor: #1C1E53;
+    --htextcolor: #FFFFFF;
+    --font-family: 'Poppins', sans-serif;
+    --wtextcolor: #282938;
+}
+#workbaner{
+    padding: 50px 0;
+    background-color: #F4F6FC;
+}
+.baner_text p{
+    color: var(--wtextcolor);
+    font-weight: 500;
+    opacity: 0.7;
+}
+.baner_text h2{
+    color: var(--wtextcolor);
+    font-size: 48px;
+    font-weight: 600;
+}
+.baner_text span a{
+    margin: 0 10px;
+    color: var(--wtextcolor);
+}
+.baner_text span a:hover{
+    color: #FCD980;
+}

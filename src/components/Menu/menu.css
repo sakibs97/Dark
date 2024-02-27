@@ -1,0 +1,68 @@
+:root{
+    --font-family: 'Poppins', sans-serif;
+}
+
+.menu-bg{
+    background-color: #1C1E53;
+}
+.navbar-nav a{
+    color: #fff !important;
+    font-family: var(--font-family);
+    margin: 20px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-nav a:hover{
+    color: #FCD980 !important;
+}
+.contact a{
+    color: #fff !important;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;    
+    padding: 16px 48px;
+    border: 2px solid hsl(225, 57%, 97%, 0.20);
+    transition: 0.5s;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.contact a:hover{
+    background-color: #FCD980 !important;    
+    border: 2px solid #FCD980;
+    color: #1B1C2B !important;
+}
+.menu_toggle{
+    background-color: #FCD980 !important;
+}
+.navbar-nav{
+    text-align: center;
+}
+@media (max-width:767px){
+    
+    .navbar-nav a{
+        margin: 10px 0;
+        padding: 0;
+    }
+    .contact{
+        margin: 20px 0;
+        text-align: center;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .contact{
+        margin: 20px 0;
+        text-align: center;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+
+}
+@media (min-width:1400px){
+}

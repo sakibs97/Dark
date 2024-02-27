@@ -1,0 +1,96 @@
+:root{
+    --bgcolor: #1C1E53;
+    --htextcolor: #FFFFFF;
+    --font-family: 'Poppins', sans-serif;
+    --wtextcolor: #282938;
+}
+#team{
+    background: #F4F6FC;
+    padding: 30px 0;
+}
+.team_head h2{
+    color: var(--bgcolor);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.team_dtls{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+.team_img{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}
+.team_img img{
+    width: 100%;
+}
+.team_img_text{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(348deg, #5239FA 17.97%, rgba(255, 255, 255, 0.00) 79.2%);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.team_icon{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+.team_icon a{
+    padding-left: 5px;
+    color: #EEF4FA;
+}
+.team_icon a:first-child{
+    padding-left: 0;
+}
+.team_icon a:hover{
+    color: #FCD980;
+}
+.team_img:hover .team_img_text{
+    opacity: 1;
+}
+.team_text h3{
+    color: var(--wtextcolor);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-top: 5px;
+}
+.team_text p{
+    color: var(--wtextcolor);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+@media (max-width:767px){
+    
+}
+@media (min-width:768px) and (max-width:991.98px){
+    
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+    
+}
+@media (min-width:1400px){
+
+}

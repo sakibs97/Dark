@@ -1,0 +1,151 @@
+:root{
+    --bgcolor: #1C1E53;
+    --htextcolor: #FFFFFF;
+    --font-family: 'Poppins', sans-serif;
+    --wtextcolor: #282938;
+}
+#projectP{
+    margin: 25px 0;
+}
+.prjct_part{
+    justify-content: space-between;
+}
+.card_head{
+    margin-bottom: 25px;
+}
+.card_head h2{    
+    color: var(--wtextcolor);
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-weight: 600;
+}
+.card_head a{
+    color: var(--wtextcolor);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;    
+}
+.card_head a:hover{
+    color: #2405F2;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.card_img{
+    position: relative;
+}
+.card_img img{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.card_img:hover .overlay{
+    width: 100%;
+}
+.overlay_text{
+    position: absolute;
+    bottom: 20%;
+    margin-left: 5%;
+    width: 40%;
+}
+.overlay_text h2{
+    color: var(--htextcolor);
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+.overlay_text p{
+    color: var(--htextcolor);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.overlay_text a{
+    color: #FCD980;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+}
+.card_img_one{
+    position: relative;
+    margin-bottom: 25px;    
+}
+.card_img_one img{
+    width: 100%;
+}
+.img_one_text{
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+.img_one_text:hover{
+    opacity: 1;
+}
+.one_text{
+    position: absolute;
+    bottom: 10%;
+    margin-left: 10%;
+}
+.one_text h2{
+    color: var(--htextcolor);
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 600;
+    bottom: 0;
+}
+.one_text a{
+    color: #FCD980;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    bottom: 10%;
+}
+@media (max-width:767px){
+    .container p{
+        font-size: 14px;
+    }
+    .overlay_text h2{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .card_img{
+        margin-bottom: 25px;
+    }
+} 
+@media (min-width:768px) and (max-width:991.98px){
+    .card_img{
+        margin-bottom: 25px;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+    
+}
+@media (min-width:1400px){
+}

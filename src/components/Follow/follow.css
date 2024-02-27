@@ -1,0 +1,90 @@
+:root{
+    --bgcolor: #1C1E53;
+    --htextcolor: #FFFFFF;
+    --font-family: 'Poppins', sans-serif;
+    --wtextcolor: #282938;
+}
+#follow{
+    margin-bottom: 25px;
+}
+.follow_head h2{
+    color: var(--wtextcolor);
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.flw_text h2{
+    color: var(--wtextcolor);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.flw_text p{
+    color: var(--wtextcolor);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.dot{
+    position: relative;
+}
+.dot{
+    cursor: pointer;
+    color: #1C1E53;    
+}
+.span_icon{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    color: #FCD980;
+    opacity: 0;
+    margin: 0;
+}
+.dot:hover{
+    color: #FCD980;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.dot:hover .span_icon{
+    color: #FCD980;
+    opacity: 1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+@media (max-width:767px){
+    .follow_head h2{
+        font-size: 40px;
+    }
+    .flw_text h2{
+        font-size: 20px;
+    }
+    .flw_text p{
+        font-size: 14px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .follow_head h2{
+        font-size: 45px;
+    }
+    .flw_text h2{
+        font-size: 20px;
+    }
+    .flw_text p{
+        font-size: 14px;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+    
+}
+@media (min-width:1400px){
+
+}

@@ -1,0 +1,111 @@
+:root{
+    --bgcolor: #1C1E53;
+    --htextcolor: #FFFFFF;
+    --font-family: 'Poppins', sans-serif;
+    --wtextcolor: #282938;
+}
+#template{
+    margin: 25px 0;
+}
+.temp_img img{
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(131deg, #F4EDE1 16.74%, #98B1C6 103.17%);
+}
+.temp_img2 img{
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(131deg, #FFD3AF 16.74%, #4F56FF 103.17%);
+}
+.temp_img3 img{
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(131deg, #EEBCA7 16.74%, #C8C8C8 103.17%);
+}
+.temp_img4 img{
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(131deg, #C2E7F2 16.74%, #98A4FF 103.17%);
+}
+.temp_img5 img{
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(131deg, #C5BCFF 16.74%, #9BF6D5 103.17%);
+}
+.temp_img6 img{
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(131deg, #D2D6FD 16.74%, #D6ACEA 103.17%);
+}
+.temp_img img:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+}
+.temp_img2 img:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+}
+.temp_img3 img:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+}
+.temp_img4 img:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+}
+.temp_img5 img:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+}
+.temp_img6 img:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+}
+.temp_dtls{
+    padding: 20px 0;
+}
+.temp_dtls h2{
+    font-family: var(--font-family);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+}
+.temp_dtls p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;    
+}
+.temp_dtls a{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--bgcolor);
+}
+.temp_dtls a:hover{
+    color: #4F56FF;
+}
+.nav-item button{
+    color: var(--wtextcolor) !important;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.nav-link:hover{
+    background-color: #FCD980;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border-color: #1C1E53 !important;
+    background-color: hsl(238, 50%, 22%, 80%) !important;
+    color: #FFD3AF !important;
+}
+
+@media (max-width:767px){
+    
+} 
+@media (min-width:768px) and (max-width:991.98px){
+    
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+    
+}
+@media (min-width:1400px){
+}

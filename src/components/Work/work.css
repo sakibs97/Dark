@@ -1,0 +1,78 @@
+:root{
+    --bgcolor: #1C1E53;
+    --htextcolor: #FFFFFF;
+    --font-family: 'Poppins', sans-serif;
+    --wtextcolor: #282938;
+}
+#work{
+    background-color: #F4F6FC;
+    padding: 30px 0;
+}
+.work_text h2{
+    color: var(--wtextcolor);
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-weight: 600;
+}
+.work_text p{
+    color: var(--wtextcolor);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+}
+.work_text a{
+    color: #1B1C2B;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 500;
+}
+.work_text a:hover{
+    color: #2405F2;
+}
+.work_card{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.work_card h2{
+    color: var(--wtextcolor);
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.work_card p{
+    color: var(--wtextcolor);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+}
+@media (max-width:767px){
+    .work_text h2{
+        font-size: 40px;
+    }
+    .container p{
+        font-size: 14px;
+    }
+    .work_card h2{
+        font-size: 25px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .work_text h2{
+        font-size: 40px;
+    }
+    .container p{
+        font-size: 14px;
+    }
+    .work_card h2{
+        font-size: 25px;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+    
+}
+@media (min-width:1400px){
+}

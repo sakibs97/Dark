@@ -1,0 +1,112 @@
+:root{
+    --bgcolor: #1C1E53;
+    --htextcolor: #FFFFFF;
+    --font-family: 'Poppins', sans-serif;
+    --wtextcolor: #282938;
+}
+#feature{
+    background-color: #F4F6FC;
+    padding: 25px 0;
+}
+.feature_head{
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 0;
+}
+.feature_head h4{
+    color: var(--wtextcolor);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+}
+.dtls_icon{
+    height: 50px;
+    width: 50px;
+}
+.fture_dtls:hover .dtls_icon{
+    color: #FCD980;
+}
+.feature_head h2{
+    color: var(--wtextcolor);
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-weight: 600;
+}
+.fture_dtls{
+    padding: 40px 30px;
+    border: 2px solid #1B1C2B;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.fture_dtls:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.fture_dtls:hover i{
+    color: #FCD980;
+}
+.fture_dtls h2{
+    color: var(--wtextcolor);
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 500;
+}
+.fture_dtls p{
+    color: var(--wtextcolor);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+@media (max-width:767px){
+    .feature_head h2{
+        font-size: 35px;
+    }
+    .fture_dtls h2{
+        font-size: 20px;
+    }
+    .fture_dtls p{
+        font-size: 14px;
+    }
+
+} 
+@media (min-width:768px) and (max-width:991.98px){
+    
+    .feature_head h2{
+        align-items: center;
+        font-size: 40px;
+    }
+    .fture_dtls h2{
+        font-size: 25px;
+    }
+    .fture_dtls p{
+        font-size: 16px;
+    }
+    
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    .f_head{
+        justify-content: center;
+    }
+}
+    
+@media (min-width:1200px) and (max-width:1399.98px){
+    .f_head{
+        justify-content: center;
+    }
+}
+@media (min-width:1400px){
+    .f_head{
+        justify-content: center;
+    }
+}

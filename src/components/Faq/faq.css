@@ -1,0 +1,83 @@
+:root{
+    --bgcolor: #1C1E53;
+    --htextcolor: #FFFFFF;
+    --font-family: 'Poppins', sans-serif;
+    --wtextcolor: #282938;
+}
+#faqq{
+    margin: 50px 0;
+}
+.faq_head h2{
+    color: var(--wtextcolor);
+    font-size: 48px;
+    font-weight: 600;    
+}
+.faq_head a{
+    color: var(--bgcolor);
+    font-size: 18px;
+    font-weight: 500;    
+}
+.faq_head a:hover{
+    color: #2405F2;
+}
+.accordion-item h2{
+    color: var(--wtextcolor);
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.accordion-item a{
+    color: #2405F2;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 10px;    
+}
+.faq_btn a{
+    margin-right: 30px;
+}
+.accordion-body p{
+    margin-left: 40px;
+    color: var(--wtextcolor);
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.87;
+}
+@media(max-width:767px){
+    .faq_head{
+        margin-bottom: 25px;
+    }
+    .faq_head h2{
+        font-size: 40px;
+    }
+    .accordion-item h2,
+    .accordion-item a{
+        font-size: 20px;
+    }
+    .accordion-body p{
+        font-size: 14px;
+    }    
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .faq_head{
+        margin-bottom: 25px;
+    }
+    .faq_head h2{
+        font-size: 45px;
+    }
+    .accordion-item h2,
+    .accordion-item a{
+        font-size: 20px;
+    }
+    .accordion-body p{
+        font-size: 15px;
+    } 
+    
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}    
+@media (min-width:1200px) and (max-width:1399.98px){
+    
+}
+@media (min-width:1400px){
+}

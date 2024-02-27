@@ -1,0 +1,107 @@
+:root{
+    --bgcolor: #1C1E53;
+    --htextcolor: #FFFFFF;
+    --font-family: 'Poppins', sans-serif;
+    --wtextcolor: #282938;
+}
+#banner{
+    background-color: var(--bgcolor);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ban_part{
+    justify-content: space-between;
+}
+.ban_text h1{
+    color: var(--htextcolor);
+    font-family: var(--font-family);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 75px;
+}
+.ban_text p{
+    color: var(--htextcolor);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.ban_btn{
+    margin-top: 40px;
+}
+.ban_btn a{
+    color: var(--htextcolor);
+    font-family: 'Manrope', sans-serif;;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 48px;
+    border: 2px solid #FCD980;
+    margin: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.ban_btn a .arrr{
+    margin-left: 10px;
+}
+.ban_btn a:hover{
+    background-color: #FCD980;
+    color: #1B1C2B;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.banner_img img{
+    width: 100%;
+}
+@media (max-width:767px){
+    .ban_text h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .ban_btn a{
+        padding: 15px 15px;
+        font-size: 13px;
+        margin: 0;
+        margin-right: 15px;
+    }
+    .ban_btn a:last-child{
+        margin-right: 0;
+    }
+    .banner_img{
+        margin-top: 50px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .ban_text h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner_img{
+        margin-top: 50px;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    .ban_text h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .ban_btn a{
+        padding: 15px 20px;
+        font-size: 15px;
+        margin: 20px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+    .ban_btn a{
+        padding: 15px 20px;
+        font-size: 15px;
+        margin: 20px;
+    }
+}
+@media (min-width:1400px){
+}

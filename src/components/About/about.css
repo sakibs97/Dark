@@ -1,0 +1,53 @@
+:root{
+    --bgcolor: #1C1E53;
+    --htextcolor: #FFFFFF;
+    --font-family: 'Poppins', sans-serif;
+    --wtextcolor: #282938;
+}
+#about{
+    margin: 25px 0;
+}
+.about_text h3{
+    color: var(--wtextcolor);
+    font-size: 18px;
+    font-weight: 500;
+}
+.about_text h2{
+    color: var(--wtextcolor);
+    font-size: 54px;
+    font-weight: 600;
+}
+.about_text p{
+    color: var(--wtextcolor);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.about_img img{
+    width: 100%;
+}
+@media (max-width:767px){
+    .about_img img{
+        width: 100%;
+    }
+    .about_text h2{
+        font-size: 40px;
+    }
+    .about_text p{
+        font-size: 14px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    
+    .about_text h2{
+        font-size: 45px;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+   
+}
+@media (min-width:1400px){
+}

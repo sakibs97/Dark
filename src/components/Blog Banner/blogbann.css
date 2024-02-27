@@ -1,0 +1,55 @@
+:root{
+    --bgcolor: #1C1E53;
+    --htextcolor: #FFFFFF;
+    --font-family: 'Poppins', sans-serif;
+    --wtextcolor: #282938;
+}
+#blogbann{
+    margin: 30px 0;
+}
+.blogbann_head{
+    margin-bottom: 30px;
+}
+.blogbann_head h2{
+    color: var(--wtextcolor);
+    font-size: 48px;
+    font-weight: 600;
+}
+.blogbann_head a{
+    color: var(--wtextcolor);
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.87;
+}
+.blogbann_head span{
+    color: var(--wtextcolor);
+    font-size: 16px;
+    font-weight: 500;
+}
+.blogbann_img img{
+    width: 100%;
+}
+.blogbann_btn a{
+    color: #2405F2;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+@media (max-width:767px){
+    .blogbann_head h2{
+        font-size: 35px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .blogbann_head h2{
+        font-size: 40px;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+
+}
+@media (min-width:1400px){
+}

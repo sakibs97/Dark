@@ -1,0 +1,64 @@
+:root{
+    --bgcolor: #1C1E53;
+    --htextcolor: #FFFFFF;
+    --font-family: 'Poppins', sans-serif;
+    --wtextcolor: #282938;
+}
+#readbann{
+    margin: 30px 0;
+}
+.readbann_head h4{
+    color: var(--wtextcolor);
+    font-size: 24px;
+    font-weight: 500;
+}
+.readbann_head h2{
+    color: var(--wtextcolor);
+    font-size: 48px;
+    font-weight: 600;
+}
+.readbann_img{
+    margin: 20px 0;
+}
+.readbann_img img{
+    width: 100%;
+}
+.readbann_img{
+    padding: 30px 40px;
+    background: linear-gradient(131deg, #F4EDE1 16.74%, #98B1C6 103.17%);
+}
+.readbann_img img:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 10px 10px 10px;
+}
+.ban_btn_text{
+   padding-top: 10px;
+}
+.ban_btn_text p{
+    color: var(--wtextcolor);
+    font-size: 16px;
+    padding-bottom: 10px;
+    opacity: 0.8;
+    padding: 0;
+    margin: 0;
+}
+.ban_btn_text h4{
+    color: var(--wtextcolor);
+    font-size: 24px;
+    font-weight: 500;   
+}
+@media (max-width:767px){
+    .readbann_head h2{
+        font-size: 40px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+
+}
+@media (min-width:1400px){
+}
